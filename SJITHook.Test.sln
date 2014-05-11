@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJITHook.Test", "SJITHook.Test\SJITHook.Test.csproj", "{6BB7A545-693A-4DAC-A860-E41613D55F9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJITHook", "SJITHook\SJITHook.csproj", "{ECA2D8F0-DF33-4723-84CB-F4D8CD03A321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJITHook.Compact", "SJITHook.Compact\SJITHook.Compact.csproj", "{2A486FD2-7B50-47B3-98AB-B35A4EE4FAF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BB7A545-693A-4DAC-A860-E41613D55F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB7A545-693A-4DAC-A860-E41613D55F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB7A545-693A-4DAC-A860-E41613D55F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB7A545-693A-4DAC-A860-E41613D55F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA2D8F0-DF33-4723-84CB-F4D8CD03A321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA2D8F0-DF33-4723-84CB-F4D8CD03A321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA2D8F0-DF33-4723-84CB-F4D8CD03A321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA2D8F0-DF33-4723-84CB-F4D8CD03A321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A486FD2-7B50-47B3-98AB-B35A4EE4FAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A486FD2-7B50-47B3-98AB-B35A4EE4FAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A486FD2-7B50-47B3-98AB-B35A4EE4FAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A486FD2-7B50-47B3-98AB-B35A4EE4FAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
