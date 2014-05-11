@@ -33,13 +33,13 @@ How to use
             */
             return hook.OriginalCompileMethod(thisPtr, corJitInfo, methodInfo, flags, nativeEntry, nativeSizeOfCode);
         }
-        ```
+```
 * Finally uninstall the hook when you're done using it:
 
-
+```csharp
     if (hook.UnHook())
         Console.WriteLine("Successfully uninstalled hook!");
-        
+``` 
 Remarks
 =======
 SJITHook is simply replacing the entry in CILJit's VTable, and not writing any instructions in the actual compileMethod function.
