@@ -42,4 +42,5 @@ How to use
 ``` 
 Remarks
 =======
-SJITHook is simply replacing the entry in CILJit's VTable, and not writing any instructions in the actual compileMethod function.
+* SJITHook is simply replacing the entry in CILJit's VTable, and not writing any instructions in the actual compileMethod function.
+* You need to enable Unsafe code in your project in order to use SJITHook.
