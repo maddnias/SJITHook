@@ -39,8 +39,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClrjitAddrProvider.cs" />
-    <Compile Include="Data.cs" />
     <Compile Include="JITHook.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="JITHook64.cs" />
     <Compile Include="MscorjitAddrProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VTableAddrProvider.cs" />
